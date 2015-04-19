@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>test</title>
+    <script language="javascript">
+function DoAlert()
+{
+    alert('alert!(function)');
+}
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" value="クリックでアラートを表示(function)"
+               onclick="DoAlert();" />
+        <p />
+        <input type="button" value="クリックでアラートを表示(inline)"
+               onclick="alert('alert!(inline)');" />
+        <p />
+        <object id="mediaplayer"
+                classid="clsid:22d6f312-b0f6-11d0-94ab-0080c74c7e95"
+                width="200" height="200">
+            <param name="filename" value="c:\windows\clock.avi" />
+        </object>
+    </form>
+</body>
+</html>
